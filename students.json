@@ -1,0 +1,79 @@
+ [ {
+    "class": 10,
+    "name": "Samya",
+    "role": "Student",
+    "id": "101",
+    "school name": "Gowtham Vidyalaya School"
+  },
+
+  {
+    "class": 9,
+    "student name": "Saadvika",
+    "id": "102",
+    "role": "Teacher",
+    "school name": "Gowtham Model School"
+   },
+    
+  {
+     "class": 8,
+     "student name": "Sreeja",
+     "id": "103",
+     "role": "Student",
+     "school name": "St.Andrew's School"
+    },
+
+  {
+     "class": 7,
+     "student name": "Sujatha",
+     "id": "104",
+     "role": "Teacher",
+     "school name": "Raghava High School"
+   },
+
+   {
+      "class": 6,
+      "student name": "Sruthi",
+      "id": "105",
+      "role": "Student",
+      "school name": "Delhi Public School"
+    },
+
+   {
+       "class": 5,
+       "student name": "Sreenidhi",
+       "id": "106",
+       "role": "Teacher",
+       "school name": "Bharathi Vidya Bahavans School"
+    },
+
+    {
+       "class": 4,
+       "student name": "Amitha",
+       "id": "107",
+       "role": "Student",
+       "school name": "Little Flowers School"
+    },
+
+   {
+       "class": 3,
+       "student name": "Shivani",
+       "id": "108",
+       "role": "Teacher",
+       "school name": "Krishnaveni Talent School"
+   },
+
+   {
+      "class": 2,
+      "student name": "Rani",
+      "id": "109",
+      "role": "Student",
+      "school name": "Sunrise Model School"
+   },
+
+   {
+      "class": 1,
+      "student name": "Sreevani",
+      "id": "110",
+      "role": "Teacher",
+      "school name": "Kendri Vidyalaya"
+   } ]
