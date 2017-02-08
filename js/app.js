@@ -1,15 +1,16 @@
 
-angular.module('studentApp', ['ui.router']);
-.config(function($stateProvider,$urlRouterProvider){
+ var app =angular.module('studentApp', ['ui.router']);
+ app.config(function($stateProvider,$urlRouterProvider){
  $stateProvider
- .state('/', {
-  template : '<ul><li ng-repeat="school">{{student.name}}</li><ul>',
-  controller : 'studentCtrl',
+ .state('list', {
+ 	url : '/list',
+  templateUrl : 'views/list.html',
+  controller : 'studentCtrl'
 
  });
  $urlRouterProvider.otherwise('/');
 
- })    ;
+ }) ;
 
 
 

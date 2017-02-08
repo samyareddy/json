@@ -1,79 +1,95 @@
  [ {
-    "class": 10,
+    "class": "10",
     "name": "Samya",
     "role": "Student",
     "id": "101",
-    "school name": "Gowtham Vidyalaya School"
+    "school_name": "Gowtham Vidyalaya School"
   },
 
   {
-    "class": 9,
+    "class": "10",
     "student name": "Saadvika",
     "id": "102",
     "role": "Teacher",
-    "school name": "Gowtham Model School"
+    "school_name": "Gowtham Vidyalaya School"
    },
     
   {
-     "class": 8,
+     "class": "10",
      "student name": "Sreeja",
      "id": "103",
-     "role": "Student",
-     "school name": "St.Andrew's School"
+     "role": "Teacher",
+     "school_name": "Gowtham Vidyalaya School"
     },
 
   {
-     "class": 7,
-     "student name": "Sujatha",
+     "class": "10",
+     "student_name": "Sujatha",
      "id": "104",
      "role": "Teacher",
-     "school name": "Raghava High School"
+     "school_name": "Gowtham Vidyalaya School"
    },
 
    {
-      "class": 6,
-      "student name": "Sruthi",
+      "class": "10",
+      "student_name": "Sruthi",
       "id": "105",
       "role": "Student",
-      "school name": "Delhi Public School"
+      "school_name": "Gowtham Vidyalaya School"
     },
 
    {
-       "class": 5,
-       "student name": "Sreenidhi",
+       "class": "10",
+       "student_name": "Sreenidhi",
        "id": "106",
        "role": "Teacher",
-       "school name": "Bharathi Vidya Bahavans School"
+       "school_name": "Gowtham Vidyalaya School"
     },
 
     {
-       "class": 4,
-       "student name": "Amitha",
+       "class": "9",
+       "student_name": "Amitha",
        "id": "107",
        "role": "Student",
-       "school name": "Little Flowers School"
+       "school_name": "Raghava High School"
     },
 
    {
-       "class": 3,
-       "student name": "Shivani",
+       "class": "9",
+       "student_name": "Shivani",
        "id": "108",
-       "role": "Teacher",
-       "school name": "Krishnaveni Talent School"
+       "role": "Student",
+       "school_name": "Raghava High School"
    },
 
    {
-      "class": 2,
-      "student name": "Rani",
+      "class": "9",
+      "student_name": "Rani",
       "id": "109",
       "role": "Student",
-      "school name": "Sunrise Model School"
+      "school_name": "Raghava High School"
    },
 
    {
-      "class": 1,
-      "student name": "Sreevani",
+      "class": "9",
+      "student_name": "Sre",
       "id": "110",
       "role": "Teacher",
-      "school name": "Kendri Vidyalaya"
-   } ]
+      "school_name": "Raghava High School"
+   },
+   {
+      "class": "9",
+      "student_name": "Raju",
+      "id": "111",
+      "role": "Student",
+      "school_name": "Raghava High School"
+   },
+
+   {
+      "class": "9",
+      "student_name": "Sreevani",
+      "id": "112",
+      "role": "Teacher",
+      "school_name": "Raghava High School"
+   }
+    ]
