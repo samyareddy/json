@@ -3,7 +3,7 @@
      this.getSchoolInfo = function()
      {
 
-        return $http.get('students.json').success(function(response) {
+      return $http.get('students.json').success(function(response) {
         console.log(response.data);
 
     });

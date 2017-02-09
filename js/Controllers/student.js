@@ -4,10 +4,12 @@
      $scope.getSchool=function(){
         studentFactory.getStudentFactory().then(function(resp){
         	$scope.schoolList = resp;
-        	console.log("$scope.schoolList", $scope.schoolList)
-        });
+
+   console.log("$scope.schoolList", $scope.schoolList)
+      });
         
     }
     $scope.getSchool();
   
+   
  });

@@ -1,25 +1,28 @@
  [ {
     "class": "10",
-    "name": "Samya",
+    "student_name": "Samya",
     "role": "Student",
     "id": "101",
-    "school_name": "Gowtham Vidyalaya School"
+    "school_name": "Gowtham Vidyalaya School",
+    "school_id": 201
   },
 
   {
     "class": "10",
-    "student name": "Saadvika",
+    "student_name": "Saadvika",
     "id": "102",
     "role": "Teacher",
-    "school_name": "Gowtham Vidyalaya School"
+    "school_name": "Gowtham Vidyalaya School",
+    "school_id": 201
    },
     
   {
      "class": "10",
-     "student name": "Sreeja",
+     "student_name": "Sreeja",
      "id": "103",
      "role": "Teacher",
-     "school_name": "Gowtham Vidyalaya School"
+     "school_name": "Gowtham Vidyalaya School",
+     "school_id": 201
     },
 
   {
@@ -27,7 +30,8 @@
      "student_name": "Sujatha",
      "id": "104",
      "role": "Teacher",
-     "school_name": "Gowtham Vidyalaya School"
+     "school_name": "Gowtham Vidyalaya School",
+     "school_id": 201
    },
 
    {
@@ -35,7 +39,8 @@
       "student_name": "Sruthi",
       "id": "105",
       "role": "Student",
-      "school_name": "Gowtham Vidyalaya School"
+      "school_name": "Gowtham Vidyalaya School",
+      "school_id": 201
     },
 
    {
@@ -43,7 +48,8 @@
        "student_name": "Sreenidhi",
        "id": "106",
        "role": "Teacher",
-       "school_name": "Gowtham Vidyalaya School"
+       "school_name": "Gowtham Vidyalaya School",
+       "school_id": 201
     },
 
     {
@@ -51,7 +57,8 @@
        "student_name": "Amitha",
        "id": "107",
        "role": "Student",
-       "school_name": "Raghava High School"
+       "school_name": "Raghava High School",
+       "school_id": 202
     },
 
    {
@@ -59,7 +66,8 @@
        "student_name": "Shivani",
        "id": "108",
        "role": "Student",
-       "school_name": "Raghava High School"
+       "school_name": "Raghava High School",
+       "school_id": 202
    },
 
    {
@@ -67,22 +75,25 @@
       "student_name": "Rani",
       "id": "109",
       "role": "Student",
-      "school_name": "Raghava High School"
+      "school_name": "Raghava High School",
+      "school_id": 202
    },
 
    {
       "class": "9",
-      "student_name": "Sre",
+      "student_name": "Sreelatha",
       "id": "110",
       "role": "Teacher",
-      "school_name": "Raghava High School"
+      "school_name": "Raghava High School",
+      "school_id": 202
    },
    {
       "class": "9",
-      "student_name": "Raju",
+      "student_name": "Saanvika",
       "id": "111",
       "role": "Student",
-      "school_name": "Raghava High School"
+      "school_name": "Raghava High School",
+      "school_id": 202
    },
 
    {
@@ -90,6 +101,7 @@
       "student_name": "Sreevani",
       "id": "112",
       "role": "Teacher",
-      "school_name": "Raghava High School"
+      "school_name": "Raghava High School",
+      "school_id": 202
    }
     ]

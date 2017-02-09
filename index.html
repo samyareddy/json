@@ -8,6 +8,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
 
+
    <script src="js/app.js"></script>
   <script src="js/controllers/student.js"> </script>
   <script src="js/factory/student.js"></script>
@@ -19,70 +20,58 @@
     <h2> Details Of Students : </h2>
     <div class="panel-group" id="accordion">
    
-<!-- 
-      <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Gowtham Vidyalaya School: </a>
-         </h4>
-      </div>
-      <div id="collapse2" class="panel-collapse collapse out">
-      <div class="panel-body"> 
-      <li class="active"><a href="#firstTab" data-toggle="tab">Student</a></li>
-      <li class="active"><a href="#firstTab" data-toggle="tab">Teacher</a></li>
-      </div>
-      </div>
-      </div>
-
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Raghava High School: </a>
-         </h4>
-      </div>
-      <div id="collapse3" class="panel-collapse collapse out">
-      <div class="panel-body"> 
-      <li class="active"><a href="#firstTab" data-toggle="tab">Student</a></li>
-      <li class="active"><a href="#firstTab" data-toggle="tab">Teacher</a></li>
-      </div>
-      </div>
-      </div> -->
 
 
-     <div ng-repeat="(key, value) in schoolList">
-      <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#{{$index}}">{{key}}</a>
-         </h4>
-      </div>
-      <div id="{{$index}}" class="panel-collapse collapse out">
+<div ng-repeat="(schoolName, schoolData) in schoolList">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#{{$index}}">{{schoolName}}</a>
+      </h4>
+    </div>
+    <div id="{{$index}}" class="panel-collapse collapse out">
       <div class="panel-body"> 
-      <li class="active"><a href="#firstTab" data-toggle="tab">Student</a></li>
-      <li class="active"><a href="#firstTab" data-toggle="tab">Teacher</a></li>
-      </div>
-      </div>
-      </div>
+        <div ng-repeat="(key, value) in schoolData">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#{{key}}{{$index}}">{{key}}{{index}}</a> 
+
+                 </h4>
+
+         
+        
        </div>
-    
-<!-- 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Add School</a>
-        </h4>
-      </div>
-      <div id="collapse4" class="panel-collapse collapse out">
-        <div class="panel-body"> 
-     
-    
-        </div>
-      </div>
-    </div> -->
+              <div id="{{key}}{{$index}}" class="panel-collapse collapse out">
+                <div class="panel-body">
 
-    
-     
+                    <div>
+            <table border="1">
+                <tr>
+                     <th>Name  <br/></th> 
+                     <th>Class  <br/></th>                 
+                     <th>School-ID <br/></th>
+                     <th>ID <br/></th>
+               </tr>
+             
+                <tr ng-repeat="student in value">
+                   <td><span>{{student.student_name}}</span></td>    
+                   <td><span>{{student.class}}</span></td>
+                   <td><span>{{student.school_id}}</span></td>
+                   <td><span>{{student.id}}</span></td> 
+              </tr>             
+             </table>
+           </div> 
 
+                </div>
+              </div>
+            </div>
+          </div>
+         
+      </div>
+    </div>
+  </div>
+</div>
 
       </div>
       </div>
