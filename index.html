@@ -26,23 +26,23 @@
   <div class="panel panel-default">
     <div class="panel-heading">
       <h4 class="panel-title">
-          <a data-toggle="collapse" data-parent="#accordion" href="#{{$index}}">{{schoolName}}</a>
+          <a data-toggle="collapse" data-parent="#accordion" href="#{{schoolName}}">{{schoolName}} School</a>
       </h4>
     </div>
-    <div id="{{$index}}" class="panel-collapse collapse out">
+    <div id="{{schoolName}}" class="panel-collapse collapse out">
       <div class="panel-body"> 
-        <div ng-repeat="(key, value) in schoolData">
+        <div ng-repeat="(key, values) in schoolData">
             <div class="panel panel-default">
               <div class="panel-heading">
                 <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#{{key}}{{$index}}">{{key}}{{index}}</a> 
+                    <a data-toggle="collapse" data-parent="#accordion" href="#{{schoolName}}{{$index}}">{{key}}</a> 
 
                  </h4>
 
          
         
        </div>
-              <div id="{{key}}{{$index}}" class="panel-collapse collapse out">
+              <div id="{{schoolName}}{{$index}}" class="panel-collapse collapse out">
                 <div class="panel-body">
 
                     <div>
@@ -54,7 +54,7 @@
                      <th>ID <br/></th>
                </tr>
              
-                <tr ng-repeat="student in value">
+                <tr ng-repeat="student in values">
                    <td><span>{{student.student_name}}</span></td>    
                    <td><span>{{student.class}}</span></td>
                    <td><span>{{student.school_id}}</span></td>
